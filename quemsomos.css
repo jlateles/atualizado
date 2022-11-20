@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Roboto:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#222221;
+    color: white;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+header {
+    background-color: #161615;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content:space-between;
+    padding-top: 8px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 90px;
+    font-size: 20px;
+ }
+
+header ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px 20px;
+    align-items: center;
+    position: relative;
+    height: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header ul li a{
+    color: #e2d515;
+    text-decoration: none;
+    font-weight: bold;
+}
+header ul li a:hover{
+    color: rgb(255, 255, 255);
+    transition: .3s;
+}
+
+#botaoLogin{
+    border: none;
+    background: #e2d515;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #161615;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+#botaoLogin:hover{
+    transform: scale(1.2);
+    cursor: pointer; 
+}
+
+header a img{
+    max-width: 65px;
+    max-height: 65px;
+    width: auto;
+    height: auto;
+}
+
+main {
+    text-align: center;
+}
+
+h2 {
+    color: #e2d515;
+}
+
+#inicial{
+    border: none;
+    background: #e2d515;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #161615;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .3s;
+}
+#inicial:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.inicial{
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    background: #161615;
+    height: 120px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fixar{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.txt{
+    margin-left: 60px;
+    margin-top: 30px;
+    color:#7a7a7a;
+    font-weight: bold;
+}
+
+.txt p{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.txt p:hover{
+    color:#fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.imgs img{
+    max-width: 30px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+.imgs{
+    margin-right: 30px;
+}
+.spanp{
+    color:#fff
+}
